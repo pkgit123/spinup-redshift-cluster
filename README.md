@@ -14,6 +14,7 @@ Playbook to Spinup (Spin-Up) Redshift Cluster
 
 
 ### References:
+* AWS CloudFormation User Guide.  Redshift templates.  https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-west-2.html#w2ab1c35c58c13c31
 * AWS Blog.  Automate Amazon Redshift cluster creation using AWS CloudFormation.  https://aws.amazon.com/blogs/big-data/automate-amazon-redshift-cluster-creation-using-aws-cloudformation/
   * VPC CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/aws-vpc-blog.template
   * Amazon Linux Bastion Host CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/linux-bastion-blog.template
