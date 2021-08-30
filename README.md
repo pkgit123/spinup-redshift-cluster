@@ -8,13 +8,11 @@ Playbook to Spinup (Spin-Up) Redshift Cluster
 * Redshift Cluster is in private subnet
 * Security group of private subnet allows network traffice from public subnet (port 5349)
 
-### Steps to Setup Redshift Cluster:
-1. Start with IAM users and programmatic credentials (access key, secret access key)
-2. 
-
 
 ### References:
 * AWS CloudFormation User Guide.  Redshift templates.  https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-west-2.html#w2ab1c35c58c13c31
+  * Basic Redshift cluster.  https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/Redshift.template
+  * Redshift cluster in VPC.  https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/RedshiftClusterInVpc.template
 * AWS Blog.  Automate Amazon Redshift cluster creation using AWS CloudFormation.  https://aws.amazon.com/blogs/big-data/automate-amazon-redshift-cluster-creation-using-aws-cloudformation/
   * VPC CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/aws-vpc-blog.template
   * Amazon Linux Bastion Host CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/linux-bastion-blog.template
