@@ -8,9 +8,10 @@ Playbook to Spinup (Spin-Up) Redshift Cluster
 * Redshift Cluster is in private subnet
 * Security group of private subnet allows network traffice from public subnet (port 5349)
 
-### Warning
-* Redshift is a relatively expensive service, so be aware that it will incur charges to uptime, even if not using.
-
+### Notes:
+* Warning: Redshift is a relatively expensive service, so be aware that it will incur charges to uptime, even if not using.
+* Redshift has single-node vs. multi-node.  For prototyping purposes, the single-node cluster will be cheaper.
+* Redshift has different node types.  Some node types have a minimum number of nodes.  Some node types combine storage and compute; other node types separate storage and compute.  The newer RA3 node type has 2-3 node minimum, but the advantage when scaling is that it separates compute from storage.
 
 ### References:
 * AWS CloudFormation User Guide.  Redshift templates.  https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-west-2.html#w2ab1c35c58c13c31
