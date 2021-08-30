@@ -15,7 +15,7 @@ Playbook to Spinup (Spin-Up) Redshift Cluster
   * Redshift cluster in VPC.  https://s3.us-west-2.amazonaws.com/cloudformation-templates-us-west-2/RedshiftClusterInVpc.template
 * AWS Blog.  Automate Amazon Redshift cluster creation using AWS CloudFormation.  https://aws.amazon.com/blogs/big-data/automate-amazon-redshift-cluster-creation-using-aws-cloudformation/
     * MainUsername
-    * MainPassword
+    * MainPassword - can only contain letters and number (no special symbols)
   * VPC CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/aws-vpc-blog.template
   * Amazon Linux Bastion Host CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/linux-bastion-blog.template
   * Amazon Redshift CloudFormation Template.  https://aws-bigdata-blog.s3.amazonaws.com/artifacts/Automate_Redshift_Cluster_Creation_CloudFormation/redshift-blog.template
